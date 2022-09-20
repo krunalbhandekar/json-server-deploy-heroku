@@ -4,11 +4,9 @@ A fake RESTful API for testing purposes, running using the npm module **json-ser
 
 ## Installation
 
-Run npm to install all dependencies:
+Git clone 
+https://github.com/krunalbhandekar/json-server-deploy-heroku.git
 
-```sh
-npm install
-```
 
 Now you are ready to deploy to Heroku:
 
@@ -32,6 +30,14 @@ heroku open
 ## Editing the initial data
 
 The database is in the file **[db.json](db.json)**. You can edit the JSON information there.
+
+## After Changes
+
+```sh
+git add .
+git commit -m "message"
+git push heroku master
+```
 
 ## HTTP Requests & Endpoints
 
