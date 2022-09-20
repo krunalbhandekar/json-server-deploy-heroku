@@ -17,6 +17,9 @@ heroku login
 # Create the project
 heroku create your-api-project-name
 
+# Check status
+git status
+
 # Deploy to Heroku
 git push heroku master
 ```
